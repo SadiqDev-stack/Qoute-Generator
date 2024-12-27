@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+}
+
+h2{
+  color: #5DFFBE
+}
+
+.quoteDisplay{
+  background: #84869E;
+  color: white;
+  padding: 1rem;
+  width: 80%;
+  height: 200px;
+  border: 2px solid white;
+  border-radius: .5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  
+}
+
+.generateBtn, .copyBtn{
+  background: #5DFFBE;
+  border-radius: .5rem;
+  padding: 1rem;
+  width: 60%;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+body > *{
+  margin: 3rem;
+}
+
+.copyBtn{
+  width: 40%;
+  padding: .5rem;
+  margin: .5rem;
+}
